@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: url(./images/cezar-sampaio-bFzhdm9zZp0-unsplash.jpg)
+    rgba(0, 0, 0, 0.273);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.title {
+  text-align: center;
+  color: white;
+  padding-top: 4.3rem;
+  font-weight: bolder;
+}
+.title h4 {
+  color: #ca1f1f;
+  text-transform: uppercase;
+}
+.hero h1 {
+  color: white;
+  font-size: 2.3rem;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+}
+.second {
+  height: 100vh;
+  width: 100%;
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.pic {
+  width: 24%;
+}
+.text {
+  width: 50%;
+  color: #4c5053;
+}
+.text2 {
+  width: 30%;
+  color: #4c5053;
+}
+.pic2 {
+  width: 30%;
+}
+
+.navbar {
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.third {
+  height: 100vh;
+  width: 100%;
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  scale: 0.6;
+}
