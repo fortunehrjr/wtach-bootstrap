@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .hero {
@@ -53,7 +54,7 @@
 }
 
 .navbar {
-  padding: 0 4rem;
+  padding: 0 7rem;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -68,4 +69,11 @@
 }
 .carousel {
   scale: 0.6;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "poppins" sans-serif;
+}
+.navbar-brand h4 {
+  font-size: 2rem;
 }
